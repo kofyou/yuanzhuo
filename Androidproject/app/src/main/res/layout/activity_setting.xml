@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/img1"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_marginLeft="50dp"-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:src="@drawable/pic1"-->
+    <!--android:clickable="true"-->
+    <!--android:focusable="true"/>-->
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:hint="魏芦苇"
+        android:textColorHint="#95A1AA"
+        android:singleLine="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/telephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/userName"
+        android:layout_marginTop="180dp"
+        android:text="电话："
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/telephoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/telephone"
+        android:layout_toRightOf="@id/telephone"
+        android:hint="12345678925"
+        android:textColorHint="#95A1AA"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/userName"
+        android:layout_marginTop="230dp"
+        android:text="邮箱："
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/mailNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/mail"
+        android:layout_toRightOf="@id/mail"
+        android:hint="233@wlw.com"
+        android:textColorHint="#95A1AA"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/userName"
+        android:layout_marginTop="280dp"
+        android:text="职业："
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/jobSpecific"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/job"
+        android:layout_toRightOf="@id/job"
+        android:hint="学生"
+        android:textColorHint="#95A1AA"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/userName"
+        android:layout_marginTop="330dp"
+        android:text="学校："
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/schoolSpecific"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/school"
+        android:layout_toRightOf="@id/school"
+        android:hint="福州大学"
+        android:textColorHint="#95A1AA"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/userName"
+        android:layout_marginTop="380dp"
+        android:text="公司："
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/companySpecific"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/company"
+        android:layout_toRightOf="@id/company"
+        android:hint="无"
+        android:textColorHint="#95A1AA"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/userName"
+        android:layout_marginTop="430dp"
+        android:text="所在地："
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/locationSpecific"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/location"
+        android:layout_toRightOf="@id/location"
+        android:hint="福建福州"
+        android:textColorHint="#95A1AA"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="435dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:background="@drawable/clickbutton"
+        android:text="确认" />
+
+
+
+</RelativeLayout>

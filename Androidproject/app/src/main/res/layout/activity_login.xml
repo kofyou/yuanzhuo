@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/userIdSpecific"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="请输入手机号码"
+        android:singleLine="true"
+        android:textColorHint="#95A1AA"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/userPasswordSpecific"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userIdSpecific"
+        android:inputType="textPassword"
+        android:hint="请输入您的密码"
+        android:singleLine="true"
+        android:textColorHint="#95A1AA"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/logIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userPasswordSpecific"
+        android:text="登录"/>
+
+    <TextView
+        android:id="@+id/forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logIn"
+        android:text="忘记密码"
+        android:clickable="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/logIn"
+        android:text="注册"
+        android:clickable="true"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
+
